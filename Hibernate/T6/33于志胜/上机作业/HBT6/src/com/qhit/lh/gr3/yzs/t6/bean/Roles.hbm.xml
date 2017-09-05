@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+<class name="com.qhit.lh.gr3.yzs.t6.bean.Roles" table="t_roles">
+<id name="rosesId" column="rosesId" type="integer">
+<generator class="native"/>
+</id>
+<property name="rosesName" column="rosesName" type="string"></property>
+<property name="rosesMemo" column="rosesMemo" type="string"></property>
+<set name="userinfos" table="t_rolesuser" lazy="false">
+<key column="rosesId"></key>
+<many-to-many class="com.qhit.lh.gr3.yzs.t6.bean.Userinfo" column="userId"></many-to-many>
+</set>
+</class>
+</hibernate-mapping>
