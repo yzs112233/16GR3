@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//src/com/qhit/sbm/common/filter/EncodeFilter.java=UTF-8
+encoding//src/com/qhit/sbm/common/listener/ApplicationListener.java=UTF-8
+encoding//src/com/qhit/sbm/common/listener/UserExitListner.java=UTF-8
+encoding//src/com/qhit/sbm/goods/dao/impl/GoodsDaoImpl.java=UTF-8
+encoding//src/com/qhit/sbm/goods/service/GoodsService.java=UTF-8
+encoding//src/com/qhit/sbm/goods/service/impl/GoodsServiceImpl.java=UTF-8
+encoding//src/com/qhit/sbm/goods/servlet/GoodsServlet.java=UTF-8
+encoding//src/com/qhit/sbm/provider/bean/Provider.java=UTF-8
+encoding//src/com/qhit/sbm/provider/dao/ProviderDao.java=UTF-8
+encoding//src/com/qhit/sbm/provider/dao/impl/ProviderDaoImpl.java=UTF-8
