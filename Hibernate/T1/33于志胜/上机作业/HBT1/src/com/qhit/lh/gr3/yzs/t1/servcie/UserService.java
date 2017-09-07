@@ -1,0 +1,29 @@
+package com.qhit.lh.gr3.yzs.t1.servcie;
+
+import java.util.List;
+
+public interface UserService {
+	
+	/**
+	 * Ôö
+	 * @param obj
+	 */
+	public void add(Object obj);
+	/**
+	 * É¾
+	 * @param obj
+	 */
+	public void delect(Object obj);
+	/**
+	 * ¸Ä
+	 * @param obj
+	 */
+	public void update(Object obj);
+	/**
+	 * ²é
+	 * @param obj
+	 */
+	public List<Object> getAll(String fromObject);
+
+
+}
