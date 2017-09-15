@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+    "http://struts.apache.org/dtds/struts-2.5 ">
+<struts>
+  <package name="usermanager" extends="struts-default">
+  
+    <interceptors >
+    <interceptor name="MyInterceptor" class="com.yzs.t1.interceptor.MyInterceptor"></interceptor>
+    </interceptors>
+    
+	<action name="helloworld" class="com.yzs.t1.action.HellowordAction">
+	<interceptor-ref name="MyInterceptor"></interceptor-ref>
+	<interceptor-ref name="timer"></interceptor-ref>
+		<result name="success">/success.jsp</result>
+	</action>
+	<action name="hello" class="com.yzs.t1.action.HellowordAction">
+		<result name="success">/success.jsp</result>
+		</action>
+  </package>
+</struts>
